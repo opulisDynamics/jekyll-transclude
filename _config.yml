@@ -1,7 +1,7 @@
 name: Jekyll Transclude Prototype
 baseurl: /jekyll-transclude
 
-exclude: ["excluded_folder"]
+exclude: ["excluded_folder", "Rakefile"]
 
 plugins:
   - ./_plugins/jekyll-transclude
