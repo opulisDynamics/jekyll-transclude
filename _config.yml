@@ -1,2 +1,12 @@
 name: Jekyll Transclude Prototype
 baseurl: /jekyll-transclude
+
+exclude: ["excluded_folder"]
+
+plugins:
+  - ./_plugins/jekyll-transclude
+
+copy_files_plugin:
+  to_dir: './_site/assets/js'
+  from_files:
+    - './excluded_folder/test.js'
